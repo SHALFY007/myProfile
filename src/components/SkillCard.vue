@@ -1,5 +1,6 @@
 <template>
     <div class="skill_card">
+        <img :src="type.img" alt="logo" style="max-width: 110px; min-height: 110px;">
         <p class="skill_card_txt">{{ type.text }}</p>
     </div>
 </template>
@@ -22,6 +23,9 @@ export default {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
     border-radius: 29px;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
 }
 .skill_card_txt {
     font-weight: 300;

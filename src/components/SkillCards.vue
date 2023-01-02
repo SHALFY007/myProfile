@@ -14,12 +14,12 @@ export default {
     data() {
         return {
             skills: [
-                {id: 1, img: '', text: 'HTML/CSS'},
-                {id: 2, img: '', text: 'JavaScript'},
-                {id: 3, img: '', text: 'React'},
-                {id: 4, img: '', text: 'Vue'},
-                {id: 5, img: '', text: 'Node.js'},
-                {id: 6, img: '', text: 'Webpack'},
+                {id: 1, img: './img/html.png', text: 'HTML/CSS'},
+                {id: 2, img: './img/js.png', text: 'JavaScript'},
+                {id: 3, img: './img/react.png', text: 'React'},
+                {id: 4, img: './img/vue.png', text: 'Vue'},
+                {id: 5, img: './img/node.png', text: 'Node.js'},
+                {id: 6, img: './img/git.png', text: 'Git'},
             ]
         }
     }
