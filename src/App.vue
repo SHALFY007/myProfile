@@ -4,7 +4,7 @@
       <HeaderPage/>
       <div class="high_layout">
         <ShortDescription />
-        <!-- <HighDecoration /> -->
+        <HighDecoration />
       </div>
     </div>
 
@@ -14,14 +14,14 @@
 <script>
 import HeaderPage from './components/Header.vue'
 import ShortDescription from './components/ShortDescription.vue'
-// import HighDecoration from './components/HighDecoration.vue'
+import HighDecoration from './components/HighDecoration.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderPage,
     ShortDescription,
-    // HighDecoration
+    HighDecoration
   }
 }
 </script>
@@ -50,7 +50,7 @@ export default {
   margin: 0 auto;
 }
 .high_layout {
-  margin-top: 12.93rem;
+
   display: flex;
 }
 </style>

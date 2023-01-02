@@ -1,5 +1,5 @@
 <template>
-    <div class="high_description">
+    <div class="high_description" ref="description">
         <h2 class="description_header_mini">hello</h2>
         <h1 class="description_header">i'm Vlad  Evlashin</h1>
         <p class="description_txt">I've been doing web design, front-end and back-end development for a year now. Do you need a website design, site layout, or maybe a turnkey website? Then contact me</p>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-    name: 'ShortDescription'
+    name: 'ShortDescription',
 }
 </script>
 
@@ -20,11 +20,13 @@ export default {
 }
 .high_description {
     max-width: 27.92rem;
+    margin-top: 12.93rem;
     height: 377px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    animation: apear 3s forwards;
 }
 .description_header_mini {
     font-family: 'NEXT ART';
@@ -41,6 +43,7 @@ export default {
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
+    text-align: initial;
     line-height: 82px;
     text-transform: uppercase;
     color: #E4E4E4;
@@ -50,8 +53,7 @@ export default {
 font-weight: 300;
 font-size: 18px;
 line-height: 21px;
-display: flex;
-align-items: center;
+    text-align: initial;
 
 /* text */
 color: #E4E4E4;
@@ -60,8 +62,7 @@ color: #E4E4E4;
     width: 200px;
     height: 47px;   
     
-    /* orange */
-    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    background-color: #E29500 ;
     box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
     border-radius: 6px;
     font-style: normal;
@@ -71,10 +72,15 @@ color: #E4E4E4;
     
     color: #000000;
     font-family: 'NEXT ART';
-    
+    transition: all 1s ease;
 }
 .contact_btn:hover {
     color: #E29500;
-    background: #FFF;
+    background-color: #fff;
+    box-shadow: none;
+}
+@keyframes apear {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 </style>
