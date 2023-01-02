@@ -1,6 +1,6 @@
 <template>
     <div class="high_decoration">
-        <svg width="575" height="575" viewBox="0 0 879 880" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="high_bg" width="575" height="575" viewBox="0 0 879 880" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_1_126)">
 <circle cx="439.5" cy="439.972" r="254" stroke="#00C4F0" stroke-width="67" shape-rendering="crispEdges"/>
 </g>
@@ -17,6 +17,7 @@
 </filter>
 </defs>
 </svg>
+    <img src="/img/im.png" class="high_img" alt="photo">
     </div>
 </template>
 
@@ -28,9 +29,18 @@ export default {
 
 <style scoped>
 .high_decoration {
+    position: relative;
     margin-top: 7rem;
     margin-left: 11rem;
     animation: apear 3s forwards;
+}
+.high_bg {
+    transform: scale(150%);
+}
+.high_img {
+    position: absolute;
+    top: -73px;
+    left: 63px;
 }
 @keyframes apear {
   0% {opacity: 0;}

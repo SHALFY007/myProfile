@@ -26,6 +26,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: inherit;
+    animation: apear 3s forwards;
 }
 .skill_card_txt {
     font-weight: 300;
