@@ -22,7 +22,8 @@ export default {
 <style scoped>
 .header {
   display: flex;
-  
+  position: relative;
+  z-index: 3;
 }
 .logo_left {
   width: 400px;
@@ -37,7 +38,7 @@ export default {
   font-weight: 300;
   font-size: 18px;
   line-height: 21px;
-  
+  cursor: pointer;
   color: #E4E4E4;
 /* text */
 }
