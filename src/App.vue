@@ -20,6 +20,7 @@
   <div class="portfolio_layout">
     <a name="portfolio"></a>
     <h1 class="portfolio_header">Portfolio</h1>
+    <PortfolioSlider />
   </div>
 </template>
 
@@ -29,6 +30,7 @@ import ShortDescription from './components/ShortDescription.vue'
 import HighDecoration from './components/HighDecoration.vue'
 import SkillCards from './components/SkillCards.vue'
 import LongDescription from './components/LongDescription.vue'
+import PortfolioSlider from './components/PortfolioSlider.vue'
 
 export default {
   name: 'App',
@@ -37,7 +39,8 @@ export default {
     ShortDescription,
     HighDecoration,
     SkillCards,
-    LongDescription
+    LongDescription,
+    PortfolioSlider
 }
 }
 </script>
@@ -84,6 +87,7 @@ export default {
   background-color: #262626;
   padding-top: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .portfolio_header {
