@@ -22,6 +22,13 @@
     <h1 class="portfolio_header">Portfolio</h1>
     <PortfolioSlider />
   </div>
+  <div class="footer_layout">
+    <a name="contact"></a>
+    <div class="contain">
+      <Footer />
+    </div>
+
+  </div>
 </template>
 
 <script>
@@ -31,6 +38,7 @@ import HighDecoration from './components/HighDecoration.vue'
 import SkillCards from './components/SkillCards.vue'
 import LongDescription from './components/LongDescription.vue'
 import PortfolioSlider from './components/PortfolioSlider.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -40,7 +48,8 @@ export default {
     HighDecoration,
     SkillCards,
     LongDescription,
-    PortfolioSlider
+    PortfolioSlider,
+    Footer
 }
 }
 </script>
@@ -97,10 +106,11 @@ export default {
   font-weight: 400;
   font-size: 48px;
   line-height: 54px;
-  
   color: #FFFFFF;
-
-
+}
+.footer_layout {
+  min-height: 14.875rem;
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
 }
 @keyframes apear {
   0% {opacity: 0;}
