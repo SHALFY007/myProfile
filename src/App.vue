@@ -24,7 +24,7 @@
   </div>
   <div class="footer_layout">
     <a name="contact"></a>
-    <div class="contain">
+    <div class="container">
       <Footer />
     </div>
 
