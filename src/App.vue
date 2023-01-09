@@ -10,12 +10,25 @@
 
   </div>
   <div class="main_layout">
-    <a name="bio"></a>
+    
     <div class="container">
       <SkillCards />
+      <a name="bio"></a>
       <LongDescription />
     </div>
 </div>
+  <div class="portfolio_layout">
+    <a name="portfolio"></a>
+    <h1 class="portfolio_header">Portfolio</h1>
+    <PortfolioSlider />
+  </div>
+  <div class="footer_layout">
+    <a name="contact"></a>
+    <div class="container">
+      <Footer />
+    </div>
+
+  </div>
 </template>
 
 <script>
@@ -24,6 +37,8 @@ import ShortDescription from './components/ShortDescription.vue'
 import HighDecoration from './components/HighDecoration.vue'
 import SkillCards from './components/SkillCards.vue'
 import LongDescription from './components/LongDescription.vue'
+import PortfolioSlider from './components/PortfolioSlider.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -32,7 +47,9 @@ export default {
     ShortDescription,
     HighDecoration,
     SkillCards,
-    LongDescription
+    LongDescription,
+    PortfolioSlider,
+    Footer
 }
 }
 </script>
@@ -71,6 +88,28 @@ export default {
   overflow: hidden;
   min-height: 115.43rem;
   padding-top: 7rem;
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+.portfolio_layout {
+  min-height: 59.625rem;
+  width: 100%;
+  background-color: #262626;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio_header {
+
+  font-family: 'NEXT ART';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+.footer_layout {
+  min-height: 14.875rem;
   background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
 }
 @keyframes apear {
