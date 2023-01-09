@@ -71,6 +71,7 @@ export default {
 }
 #app {
   text-align: center;
+  overflow: hidden;
 }
 .high_part {
   height: 47.5rem;
@@ -115,5 +116,16 @@ export default {
 @keyframes apear {
   0% {opacity: 0;}
   100% {opacity: 1;}
+}
+@media (max-width: 1199px) {
+  .container {
+    width: 800px;
+  }
+  .high_layout {
+    justify-content: center;
+  }
+  .main_layout {
+    min-height: 126.43rem;
+  }
 }
 </style>

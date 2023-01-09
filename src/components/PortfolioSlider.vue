@@ -83,4 +83,9 @@ export default {
 .swiper {
     height: 100%;
 }
+@media (max-width: 1199px) {
+    .slider_screen {
+        width: 797px;
+    }
+}
 </style>

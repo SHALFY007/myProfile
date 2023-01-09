@@ -130,4 +130,15 @@ left: 427px;
 
 color: #FFFFFF;
 }
+@media (max-width: 1199px) {
+    .long_bg_1 {
+    display: none;
+}
+    .long_bg_2 {
+        left: -65px;
+    }
+    .long_bg_3 {
+        display: none;
+    }
+}
 </style>

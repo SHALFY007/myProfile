@@ -83,4 +83,10 @@ color: #E4E4E4;
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
+@media (max-width: 1199px) {
+    .high_description {
+        max-width: 100%;
+        align-items: center;
+    }
+}
 </style>

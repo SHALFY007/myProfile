@@ -42,4 +42,16 @@ export default {
   color: #E4E4E4;
 /* text */
 }
+
+@media (max-width: 1199px) {
+  .header {
+  display: flex;
+  position: relative;
+  z-index: 3;
+  justify-content: center;
+}
+  .logo_left {
+  display: none;
+}
+}
 </style>

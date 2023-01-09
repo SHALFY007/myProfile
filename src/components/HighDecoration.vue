@@ -46,4 +46,9 @@ export default {
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
+@media (max-width: 1199px) {
+    .high_decoration {
+    display: none;
+}
+}
 </style>
