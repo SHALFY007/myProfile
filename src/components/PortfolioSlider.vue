@@ -42,16 +42,22 @@ export default {
                     id:2, img: '/img/slider_2.png', description: 'Pet project'
                 },
                 {
-                    id:3, img: '/img/slider_3.png', description: 'Costs manager on Vue'
+                    id:3, img: '/img/slider_7.png', description: 'Property search on TypeScript'
                 },
                 {
-                    id:4, img: '/img/js.png', description: 'Messanger on React with using Firebase'
+                    id:4, img: '/img/slider_3.png', description: 'Costs manager on Vue'
                 },
                 {
                     id:5, img: '/img/slider_5.png', description: 'Taked part in creating Keyboard Trainer on React'
                 },
                 {
                     id:6, img: '/img/slider_6.png', description: 'Profile on Vue'
+                },
+                {
+                    id:7, img: '/img/slider_8.png', description: 'Layout to order(Native JS)'
+                },
+                {
+                    id:8, img: '/img/slider_9.png', description: 'Web application "Weather" on TypeScript'
                 }
             ]
         }
