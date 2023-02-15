@@ -2,7 +2,7 @@
     <div class="high_description" ref="description">
         <h2 class="description_header_mini">hello</h2>
         <h1 class="description_header">i'm Vlad  Evlashin</h1>
-        <p class="description_txt">I've been doing web design, front-end and back-end development for a year now. Do you need a website design, site layout, or maybe a turnkey website? Then contact me</p>
+        <p class="description_txt">I've been doing, front-end and back-end development for a year now. Do you need a, site layout, or maybe a turnkey website? Then contact me</p>
         <button class="contact_btn">Contact me</button>
 </div>
 </template>

@@ -19,7 +19,8 @@ export default {
                 {id: 3, img: './img/react.png', text: 'React'},
                 {id: 4, img: './img/vue.png', text: 'Vue'},
                 {id: 5, img: './img/node.png', text: 'Node.js'},
-                {id: 6, img: './img/git.png', text: 'Git'},
+                {id: 6, img: './img/ts.png', text: 'TypeScript'},
+                {id: 7, img: './img/git.png', text: 'Git'},
             ]
         }
     }
