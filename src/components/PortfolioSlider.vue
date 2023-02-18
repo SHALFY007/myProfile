@@ -94,4 +94,10 @@ export default {
         width: 797px;
     }
 }
+@media (max-width: 764px) {
+    .slider_screen {
+        width: 100%;
+        height: auto;
+    }
+}
 </style>

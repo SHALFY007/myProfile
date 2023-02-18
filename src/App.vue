@@ -128,4 +128,10 @@ export default {
     min-height: 126.43rem;
   }
 }
+
+@media (max-width: 764px) {
+  .container {
+    width: 100vw;
+  }
+}
 </style>

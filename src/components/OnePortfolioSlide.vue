@@ -42,4 +42,11 @@ color: #FFFFFF;
 
 
 }
+
+@media (max-width: 764px) {
+    .slider_img {
+        max-width: 100%;
+        height: auto;
+    }
+}
 </style>

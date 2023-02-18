@@ -89,4 +89,11 @@ color: #E4E4E4;
         align-items: center;
     }
 }
+
+@media (max-width: 764px) {
+    .description_header, 
+    .description_txt {
+        text-align: center;
+    }
+}
 </style>

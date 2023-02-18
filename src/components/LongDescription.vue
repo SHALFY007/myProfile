@@ -141,4 +141,18 @@ color: #FFFFFF;
         display: none;
     }
 }
+
+@media (max-width: 764px) {
+    .long_bg_2 {
+        display: none;
+    }
+    .long_header {
+    left: 0;
+    right: 0;
+    }
+    .long_desciption {
+        position: static;
+        width: auto;
+    }
+}
 </style>
