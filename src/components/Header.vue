@@ -53,5 +53,8 @@ export default {
   .logo_left {
   display: none;
 }
+  .header_link {
+    font-size: 100%;
+  }
 }
 </style>

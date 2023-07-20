@@ -3,7 +3,7 @@
     <div class="container">
       <HeaderPage/>
       <div class="high_layout" name="home">
-        <ShortDescription />
+        <ShortDescription data-aos="fade-right"/>
         <HighDecoration />
       </div>
     </div>
@@ -12,9 +12,9 @@
   <div class="main_layout">
     
     <div class="container">
-      <SkillCards />
+      <SkillCards data-aos="fade-up"/>
       <a name="bio"></a>
-      <LongDescription />
+      <LongDescription data-aos="fade-up"/>
     </div>
 </div>
   <div class="portfolio_layout">
@@ -39,6 +39,8 @@ import SkillCards from './components/SkillCards.vue'
 import LongDescription from './components/LongDescription.vue'
 import PortfolioSlider from './components/PortfolioSlider.vue'
 import Footer from './components/Footer.vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 export default {
   name: 'App',
@@ -50,7 +52,10 @@ export default {
     LongDescription,
     PortfolioSlider,
     Footer
-}
+},
+  mounted() {
+    AOS.init()
+  },
 }
 </script>
 

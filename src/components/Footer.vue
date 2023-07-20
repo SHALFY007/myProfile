@@ -29,7 +29,7 @@ export default {
 .footer {
     display: flex;
     flex-direction: column;
-    min-height: 238px;
+    min-height: 239px;
     justify-content: space-evenly;
 }
 .footer_header {
